@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "FOH",
+        "colour": "#6798d0"
+    },
+    {
+        "id": 2,
+        "name": "Kitchen",
+        "colour": "#ef7150"
+    },
+    {
+        "id": 3,
+        "name": "Reception",
+        "colour": "#fbd142"
+    },
+    {
+        "id": 4,
+        "name": "Cleaner",
+        "colour": "#60c1a5"
+    },
+    {
+        "id": 5,
+        "name": "Bar",
+        "colour": "#e88abb"
+    }
+]

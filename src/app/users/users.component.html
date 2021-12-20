@@ -1,0 +1,15 @@
+<!-- This is the markup for the table you should use. -->
+<table>
+	<thead>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Roles</th>
+	</thead>
+	<tr *ngFor="let user of displayUsers">
+		<td>{{user.id}}</td>
+		<td><input (change)="changeUserName(user.id, $event)" type="text" [value]="user.name"></td>
+		<td>
+			<div *ngFor="let role of fetchRoles(user.roles)" class="tag" [style.background-color]="role.colour">{{role.name}}</div>
+		</td>
+	</tr>
+</table>
